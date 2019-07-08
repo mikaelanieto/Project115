@@ -18,4 +18,19 @@ public class Activity2 extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void showActivity4(View v) {
+        Intent i = new Intent(this, Activity4.class);
+        startActivity(i);
+    }
+
+    public void showActivity5(View v) {
+        Intent i = new Intent(this, Activity5.class);
+        startActivity(i);
+    }
+
+    public void showActivity6(View v) {
+        Intent i = new Intent(this, Activity6.class);
+        startActivity(i);
+    }
+
 }
