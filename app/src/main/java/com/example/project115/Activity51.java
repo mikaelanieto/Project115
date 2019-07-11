@@ -59,4 +59,9 @@ public class Activity51 extends AppCompatActivity {
         toast.show();
     }
 
+    public void showMessage9(View v){
+        Toast toast = Toast.makeText(this, "Orange and Yellow, 1956", Toast.LENGTH_LONG);
+        toast.show();
+    }
+
 }
